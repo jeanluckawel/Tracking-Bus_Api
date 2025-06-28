@@ -14,6 +14,7 @@ Route::get('/users', function () {
 
 
 
+
 Route::get('/employees', [\App\Http\Controllers\EmployeeController::class, 'index']);
 Route::get('/employees/{id}', [\App\Http\Controllers\EmployeeController::class, 'show']);
 
